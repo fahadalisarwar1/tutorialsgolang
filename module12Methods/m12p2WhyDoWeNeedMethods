@@ -1,0 +1,33 @@
+why do we need methods.
+
+The same function printSummary can be written as a simple function 
+instead of a methods
+
+
+func PrintSummary(c computer){
+    print(c.Maker)
+    /// etc 
+    
+}
+
+// go is not pure OOP language. it doesnt support classes, hence we need 
+methods as a way to achieve this functionality
+
+the receiver in method can be though of an equivalent to "this" or "self" in OOP langugaes.
+
+Methods with the same name can be defined on different types 
+whereas functions with the same names are not allowed. 
+Let's assume that we have a Square and Circle structure. 
+It's possible to define a method named Area on both Square 
+and Circle. 
+This is done in the program below.
+
+func (r rectangle) Area(){
+
+}
+
+func (c circle) Area(){
+
+}
+
+// The same is not allowed in functions

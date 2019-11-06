@@ -1,0 +1,9 @@
+Go is not a strict Object oriented programming which is very different from other languages from Python or C++
+
+Go has structs instead of classes in comparison to the OOP nature of programming languages.
+
+These structs provide somewhat similar functionality
+
+As we have already seen methods can be invoked on structs, and structs can be bundled into packages.
+
+
