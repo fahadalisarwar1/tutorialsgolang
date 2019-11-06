@@ -16,4 +16,8 @@ func main() {
 	}
 	s1.PercentageMarks()
 
+	var s2 student.Student
+	s2.PercentageMarks() // this doesnt has valid results in print function
+	// the problem can be solved using constructors
+
 }
