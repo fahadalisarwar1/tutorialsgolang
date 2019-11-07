@@ -1,5 +1,3 @@
-package main
-
 // Topics to be covered
 // -----------------------
 
@@ -12,7 +10,6 @@ package main
 // 1: Reusable packages without executable
 // 2: Executable packages.
 
-import "fmt"
 
 // this shows how to import packages into the file, the scope of the import is limited to this file only
 // fmt is the part of standard package library of GoLang and is a short hand for "format"
@@ -20,11 +17,3 @@ import "fmt"
 
 // keyword "func" defines the function similar to other programming languages
 // main is the entry point of the executable for this project
-
-func main() {
-	// This block contains code run by the main program....
-
-	fmt.Println("Hello World, Welcome to GoLang Programming")
-	// Println function prints the text to the standard output, in this case the terminal,.....
-
-}
