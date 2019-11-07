@@ -1,0 +1,8 @@
+if the same program is compiled into a binary file, there would be an error while running the program from somewhere else since the
+text file is located on a local system and cant be accessed from somewhere else
+
+
+ There are some ways to overcome this problem
+ 1: Give the function absolute path of the file
+ 2: passing the path as a command line flag
+ 3: bundling the file along with the executable

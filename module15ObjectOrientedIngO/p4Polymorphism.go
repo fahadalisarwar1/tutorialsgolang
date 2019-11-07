@@ -4,3 +4,6 @@ package main
 
 // A variable of type interface can hold any value which implements the interface.
 // This property of interfaces is used to achieve polymorphism in Go
+
+
+// same example geometry or man
