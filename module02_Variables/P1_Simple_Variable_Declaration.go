@@ -12,6 +12,8 @@ import "fmt"
 // bool
 // strings
 
+
+
 var gpa int // project scoped and initially assigned Zero
 var studentName string
 var isGraduated bool // No assignment should be made here.
