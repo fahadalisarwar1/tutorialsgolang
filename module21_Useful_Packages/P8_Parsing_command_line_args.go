@@ -4,4 +4,17 @@ package main
 
 // go run -v file.go
 
-// we can also pass flags to the 
+// we can also pass flags to the go commmand
+
+//
+import (
+	"fmt"
+	"os"
+)
+func main() {
+	argsWithProg := os.Args
+	argsWithoutProg := os.Args[1:]
+	fmt.Println(argsWithProg)
+	fmt.Println(argsWithoutProg)
+
+}
