@@ -24,6 +24,9 @@ func main() {
 		if i%2 != 0 {
 			continue
 		}
+		if i == 6 {
+			break
+		}
 		// continue is used to skip the current loop
 		fmt.Println(i)
 

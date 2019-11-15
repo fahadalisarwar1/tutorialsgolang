@@ -10,13 +10,11 @@ func main() {
 	// 	}
 	// }
 	n := 5
-	for i := 0; i <= n; i++ {
-		for j := 5; j >= 0; j-- {
+	for i := 0; i < n; i++ {
+		for j := 0; j < 5; j++ {
 			fmt.Printf("i = %d j = %d ,", i, j)
 		}
 		fmt.Println()
 	}
-	for {
-		fmt.Println("HI")
-	}
+
 }
